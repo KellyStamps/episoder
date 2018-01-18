@@ -14,7 +14,7 @@ You will use your technical and creative ability to develop a front-end applicat
 ### You will be given...
 ...a GitHub repository to clone down with some starter code with a base template to develop from. You can start by writing all of your code in `front-end/src/index.js`, but _as you refactor, you'll have to create more files in the `front-end/src` directory_.
 
-...a back-end already built out for you. To get the Rails server running, `cd` into the `secretlister` folder and run `rails db:migrate` and `rails s`. The routes are as follows:
+...a back-end already built out for you. To get the Rails server running, `cd` into the `secretlister` folder and run `bundle; rails db:migrate; rails s`. The routes available are as follows:
 
 #### Get all tasks
 ```
