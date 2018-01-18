@@ -3,9 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <script src="src/index.js" charset="utf-8"></script>
+
+
+    <link rel="stylesheet" href="src/index.css">
   </head>
   <body>
+
+    <div class='form'>
+
+      <form id="create-task-form">
+        <h3>Create a task</h3>
+        <input type="text" id='description' placeholder="Description"></input> <br><br>
+        <input type="text" id='priority' placeholder="Priority"></input><br><br>
+        <input type="checkbox" id='completed'>Completed?</input><br><br>
+        <input id='button' type="submit"></input>
+      </form>
+    </div>
+
+    <div class="task-list" id=task-list></div>
+
+
+    <!-- <script src="src/task.js" charset="utf-8"></script> -->
+    <script src="src/index.js" charset="utf-8"></script>
 
   </body>
 </html>

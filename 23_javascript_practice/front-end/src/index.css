@@ -1,0 +1,11 @@
+.form {
+  background-color: grey;
+  display: block;
+  text-align: center;
+  border: 5px solid black;
+}
+
+.task-list{
+  height: 1000px;
+  width: 75%;
+}
